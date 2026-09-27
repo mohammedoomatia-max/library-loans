@@ -1,0 +1,15 @@
+{
+  "name": "library-loans",
+  "version": "1.0.0",
+  "description": "A library loan-tracking service: books, copies, members and loans, with a DB-level constraint against double lending.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/acceptance.test.js",
+    "measure": "node scripts/measure-query-plan.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT"
+}
